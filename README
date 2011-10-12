@@ -1,0 +1,11 @@
+This repository contains various (usually simple) scripts, regular expressions,
+nagios plugins, etc that may be useful for managing/monitoring a Message
+Systems Momentum cluster.  This is provided as is, without warranty of any
+kind, or any sort of promise of support by Message Systems.  
+
+All content in this repository is provided under the current BSD license.  If
+it works, great, if it breaks you get to keep all the pieces.  
+
+If you have suggestions for improvements or things to add, clone the repo, add
+them, and send me a pull request, with the understanding that it also must be
+made available under the BSD license, or I will not accept it.
