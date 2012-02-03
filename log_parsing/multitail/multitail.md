@@ -19,9 +19,11 @@
 
 ## Color Scheme ##
 
-colorscheme:momentum:http://messagesystems.com/
-scheme:momentum:/var/log/ecelerity/(mainlog|rejectlog|bouncelog).ec
-scheme:momentum:/var/log/eccluster/[0-9/]+/(mainlog|rejectlog|bouncelog)/.*
+### Scheme Identification ###
+    colorscheme:momentum:http://messagesystems.com/
+    scheme:momentum:/var/log/ecelerity/(mainlog|rejectlog|bouncelog).ec
+    scheme:momentum:/var/log/eccluster/[0-9/]+/(mainlog|rejectlog|bouncelog)/.*
+
 ### General Color Matching ###
     # Mark Receptions and Deliveries in green
     cs_re_s:green:^[0-9]+@([-0-9A-F/]+)@([-0-9A-F/]+)@([-0-9A-F/]+)@(R|D)@.*
