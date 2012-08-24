@@ -1,16 +1,4 @@
 #!/opt/msys/3rdParty/bin/perl -w
-# vim:ts=2:sw=2:et:
-# ------------------------------------------------------------------------ 
-# Copyright (c) 2012 Message Systems, Inc. All rights reserved
-#
-# THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF MESSAGE SYSTEMS
-# The copyright notice above does not evidence any actual or
-# intended publication of such source code.
-#
-# Redistribution of this material is strictly prohibited.
-# ------------------------------------------------------------------------ 
-
-
 
 use strict;
 use locale;
@@ -160,3 +148,6 @@ printf("SUMMARY     %12d %11d %11d %11d %11d %11d %11d\n",
         $total{'ceil'}
 );
 }
+
+
+# vim:ts=2:sw=2:et:
