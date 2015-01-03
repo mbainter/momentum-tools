@@ -1,4 +1,6 @@
-# -- WARNING --
+# Postman Collection for Momentum 4.x REST API
+
+## -- WARNING --
 
 Please note that this is a quickly churned out set of queries that I setup to
 do some testing.  It is not guaranteed to be correct, or even the best way to 
@@ -22,7 +24,7 @@ if has("autocmd")
 endif
 ```
 
-# Postman Connection for Momentum 4.x REST API
+# What is it?
 
 This is a JSON file that can be imported into Chrome's "Postman" plugin as a 
 collection to more easily interact with the API during development and testing.
