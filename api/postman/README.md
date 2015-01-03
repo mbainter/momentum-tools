@@ -8,6 +8,20 @@ the purpose of verifying things are operational.
 Everything here should work, and should not break anything, but no guarantees
 are expressed or implied. 
 
+h1. Contributing
+
+If you have made improvements and would like to submit a pull request, please 
+make sure it is formatted well first.  You can do this using the rather useful
+[jq](http://stedolan.github.io/jq/) tool.  If you're a fellow vim user, you 
+can add this to your vimrc to make reformatting even more handy:
+
+```vimscript
+if has("autocmd")
+    autocmd FileType json nnoremap <buffer> <leader>gq :%!jq --unbuffered -M '.'<CR>
+    autocmd FileType json vnoremap <buffer> <leader>gq :!jq --unbuffered -M '.'<CR>
+endif
+```
+
 h1. Postman Connection for Momentum 4.x REST API
 
 This is a JSON file that can be imported into Chrome's "Postman" plugin as a 
