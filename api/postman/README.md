@@ -1,4 +1,4 @@
-h1. -- WARNING --
+# -- WARNING --
 
 Please note that this is a quickly churned out set of queries that I setup to
 do some testing.  It is not guaranteed to be correct, or even the best way to 
@@ -8,7 +8,7 @@ the purpose of verifying things are operational.
 Everything here should work, and should not break anything, but no guarantees
 are expressed or implied. 
 
-h1. Contributing
+# Contributing
 
 If you have made improvements and would like to submit a pull request, please 
 make sure it is formatted well first.  You can do this using the rather useful
@@ -22,7 +22,7 @@ if has("autocmd")
 endif
 ```
 
-h1. Postman Connection for Momentum 4.x REST API
+# Postman Connection for Momentum 4.x REST API
 
 This is a JSON file that can be imported into Chrome's "Postman" plugin as a 
 collection to more easily interact with the API during development and testing.
@@ -33,9 +33,9 @@ https://chrome.google.com/webstore/detail/postman-rest-client/
 Then import it from the appropriate JSON file depending on the version of the 
 code and the version of the API you need.  
 
-h1. Configuring the Collection
+# Configuring the Collection
 
-h2. Global Variables
+## Global Variables
 
 Within Postman, you'll need to configure the following global variables:
 *PMG_MY_EMAIL* - This is a test email address, usually your own, which would be
@@ -45,7 +45,7 @@ global across any instances you might be trying to test.
 
 *PMG_MY_TZ* - Your local time zone, as used by the API.
 
-h2. Environment Variables
+## Environment Variables
 
 For each environment you want to test, you'll need to configure that environment 
 within postman using the following variables:
