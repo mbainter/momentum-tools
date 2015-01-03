@@ -40,6 +40,7 @@ code and the version of the API you need.
 ## Global Variables
 
 Within Postman, you'll need to configure the following global variables:
+
 *PMG_MY_EMAIL* - This is a test email address, usually your own, which would be
 global across any instances you might be trying to test.
 
